@@ -25,6 +25,7 @@ We'll try to create a merge conflict scenario. Follow along
 * Add a new remote named upstream, which points to my repository if you haven't
   already `git remote add upstream https://github.com/gnarula/qstp_task`
 * If as of 29, May 2016, 3:35PM IST you haven't synced your the master branch of your repository with upstream, don't do it until this task is over.
+  **Note:** If you have already synced the repository, then `git reset --hard faaebc52`. [faaebc52](https://github.com/gnarula/qstp_task/commit/faaebc52) is the absolute commit hash before the mentioned time.
 * Checkout to a new branch `git checkout -b task02`
 * Create a new folder named task02 and place a file `yourname.txt` in it. The
   name should be the same as the one used in task01
